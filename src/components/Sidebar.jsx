@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { SiShopware } from 'react-icons/si';
+import { GiBearHead } from 'react-icons/gi';
 import { MdOutlineCancel } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
@@ -23,7 +23,7 @@ const Sidebar = () => {
 							onClick={() => setActiveMenu(false)}
 							className="items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900"
 						>
-							<SiShopware /> <span>Bjorn Ventures</span>
+							<GiBearHead /> <span>Bjorn Ventures</span>
 						</Link>
 						<TooltipComponent content="Menu" position="BottomCenter">
 							<button
